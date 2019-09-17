@@ -5,11 +5,11 @@ TaniTech utility package
 
 ## Installation
 
-`$ yarn add @tanigroup/utils`
+`$ yarn add @yofriadi/tanitech-utils`
 
 or
 
-`$ npm install @tanigroup/utils`
+`$ npm install @yofriadi/tanitech-utils`
 
 Or add this package to your `package.json` file:
 
