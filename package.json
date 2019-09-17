@@ -1,8 +1,9 @@
 {
-  "name": "utils",
+  "name": "@tanigroup/utils",
   "description": "TaniHub package utility",
   "version": "0.1.0",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": "git://github.com/tanigroup/utils.git",
   "engines": {
     "node": "^10.16.3",
     "npm": "^6.9.0",
@@ -12,6 +13,9 @@
     "lint": "eslint . --ext js",
     "lint:fix": "eslint . --fix --ext js",
     "prettier": "prettier --write *.js --only-changed"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@tanigroup"
   },
   "husky": {
     "hooks": {
